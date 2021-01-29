@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色 -->
+    <color name="main_theme_color">#FFFF4480</color>
+    <!-- title bar 背景色 -->
+    <color name="main_titlebar_color">#FFF9F9F9</color>
+    <color name="main_center_bg_color">#f8f8f8</color>
+    <!-- 选中填充色 -->
+    <color name="colorPrimary">@color/main_theme_color</color>
+    <color name="colorPrimaryDark">@color/main_theme_color</color>
+    <color name="colorAccent">#FFDFDFDF</color>
+
+    //论坛
+    <color name="bang_color1">#FFD200</color>// 主题色
+    <color name="bang_color11">#FFC600</color> // 比主题色稍微深一点就行
+    <color name="bang_sendtopicaudio">#FFF7d9</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="black">#FF000000</color>
+
+    <color name="comm_divider_gray">#E4E4E4</color>
+    <color name="comm_gray_e8">#E8F4F4F4</color>\
+    <color name="comm_white">#FFFFFF</color>
+    <color name="comm_dialog_title_black">#FF4E4E4E</color>
+    <color name="sch_black_33">#ff333333</color>
+    <color name="comm_gray_99">#999999</color>
+    <!--直播主色调-->
+    <color name="lv_cl_47c88a">#47c88a</color>
+    <color name="gray">#DFDFDF</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--tab-->
+    <color name="ps_main_tag_notify_red">#FF0000</color>
+    <color name="main_tab_color_sel">#FFFFFFFF</color>
+    <color name="ps_main_tab_txt_sel">#FFFF0000</color>
+    <color name="ps_main_tab_txt_nor">#FFFFFFFF</color>
+    <color name="ps_main_tab_bg_sel">#DFDFDF</color>
+    <color name="ps_main_tab_bg_nor">#FFFFFFFF</color>
+    <color name="windowBackground">#FFFFFFFF</color>
+    <color name="comm_translucent">#00000000</color>
+
+    <!--tab-->
+
+</resources>

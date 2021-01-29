@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/rl_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/ps_bottom_navigation_margin"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/ps_bottom_navigation_icon_size"
+            android:layout_height="@dimen/ps_bottom_navigation_icon_size"
+            android:layout_gravity="center_horizontal"
+            android:duplicateParentState="true" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.internal.BaselineLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:clipToPadding="false"
+        android:duplicateParentState="true"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/smallLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:singleLine="true"
+            android:textSize="@dimen/ps_bottom_navigation_text_size" />
+
+        <TextView
+            android:id="@+id/largeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:singleLine="true"
+            android:textSize="@dimen/ps_bottom_navigation_text_size_active"
+            android:visibility="invisible" />
+    </com.google.android.material.internal.BaselineLayout>
+
+    <TextView
+        android:id="@+id/tab_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ps_main_tab_notify_red_bg"
+        android:gravity="center"
+        android:minWidth="12dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        android:visibility="visible" />
+</merge>

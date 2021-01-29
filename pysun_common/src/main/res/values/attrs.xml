@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="drawableSwitch">
+        <attr name="radius" format="dimension" />
+        <attr name="switch_width" format="dimension" />
+        <attr name="switchOnColor" format="color" />
+        <attr name="switchOffColor" format="color" />
+        <attr name="circleColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="isSwitchOn" format="boolean" />
+        <attr name="isShader" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SlidingSinIndicatorTab">
+        <attr name="foucusedTextSize" format="dimension" />
+        <attr name="unFocusedTextSize" format="dimension" />
+        <attr name="foucusedTextColor" format="color" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="unFocusedTextColor" format="color" />
+        <attr name="indicatorStrokeWith" format="dimension" />
+        <attr name="tabPadding" format="dimension" />
+        <attr name="sinIndicatorHeight" format="dimension" />
+        <attr name="sinWidth" format="dimension" />
+        <attr name="indicatorPaddingText" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundRectImageView">
+        <attr name="roundRaidus" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RadarLivingView">
+        <attr name="duration" format="integer" />
+        <attr name="solidColor" format="color" />
+        <attr name="playing" format="boolean" />
+        <attr name="imgRadius" format="dimension" />
+    </declare-styleable>
+
+    <attr name="tl_indicator_style" format="enum">
+        <enum name="NORMAL" value="0" />
+        <enum name="TRIANGLE" value="1" />
+        <enum name="BLOCK" value="2" />
+        <enum name="SIN" value="3" />
+    </attr>
+
+    <attr name="tl_textBold" format="enum">
+        <enum name="NONE" value="0" />
+        <enum name="SELECT" value="1" />
+        <enum name="BOTH" value="2" />
+    </attr>
+
+    <declare-styleable name="SinSlidingTabLayout">
+        <attr name="tl_indicator_sinHeight" format="dimension"/>
+        <attr name="tl_indicator_color" />
+        <attr name="tl_indicator_height" />
+        <attr name="tl_indicator_width" />
+        <attr name="tl_indicator_margin_left" />
+        <attr name="tl_indicator_margin_top" />
+        <attr name="tl_indicator_margin_right" />
+        <attr name="tl_indicator_margin_bottom" />
+        <attr name="tl_indicator_corner_radius" />
+        <attr name="tl_indicator_gravity" />
+        <attr name="tl_indicator_style" />
+        <attr name="tl_indicator_width_equal_title" />
+        <attr name="tl_underline_color" />
+        <attr name="tl_underline_height" />
+        <attr name="tl_underline_gravity" />
+        <attr name="tl_divider_color" />
+        <attr name="tl_divider_width" />
+        <attr name="tl_divider_padding" />
+        <attr name="tl_tab_padding" />
+        <attr name="tl_tab_space_equal" />
+        <attr name="tl_tab_width" />
+        <attr name="tl_textsize" />
+        <attr name="tl_unselectSize" format="dimension"/>
+        <attr name="tl_textSelectColor" />
+        <attr name="tl_textUnselectColor" />
+        <attr name="tl_textBold" />
+        <attr name="tl_textAllCaps" />
+    </declare-styleable>
+
+    <!--FloatLayout 流布局-->
+    <declare-styleable name="PysunFlowLayout">
+        <attr name="flHorizontalSpacing" format="dimension" />
+        <attr name="flVerticalSpacing" format="dimension" />
+        <attr name="flLines" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">lib_common</string>
+    <string name="bang_topic_share_title">[对啊会计帮]-会计问题，有问必答还狠快！</string>
+    <string name="ssx_login_action">duia.login://%1$s.login</string>
+    <string name="ssx_userinfo_action">duia://%1$s.userinfo</string>
+
+
+
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="progress" format="integer"/>
+        <attr name="startColor" format="color"/>
+        <attr name="endColor" format="color"/>
+        <attr name="unProgressColor" format="color"/>
+    </declare-styleable>
+
+    <string name="comm_confirm">确定</string>
+    <string name="comm_cancel">取消</string>
+    <string name="comm_quit_cancel">再看一会</string>
+    <string name="comm_quit_quit">继续退出</string>
+    <string name="comm_quit_content">为了以后，再多学一会吧</string>
+    <string name="comm_quit_title">真的要退出吗？</string>
+
+
+
+    <string name="comm_error_net">网络错误</string>
+    <string name="comm_error_request">请求错误</string>
+
+    <string name="comm_time_with_week">%1$04d.%2$02d.%3$02d  周%4$s</string>
+
+    </resources>

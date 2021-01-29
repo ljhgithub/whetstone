@@ -1,0 +1,114 @@
+<resources>
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+
+    </style>
+
+    <style name="MyAppTheme.Main" parent="MyAppTheme">
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorPrimaryDark">@color/gray</item>
+        <item name="colorAccent">@color/gray</item>
+    </style>
+    <!--dialog样式-->
+    <style name="CommonDialogNullBg" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+
+    <style name="DialogFullWindow" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+
+    <!--dialog样式-->
+    <style name="CommonDialogNullBg.NULL" parent="CommonDialogNullBg">
+
+        <item name="android:backgroundDimAmount">0</item>
+    </style>
+
+
+    <!--dialog样式-->
+    <style name="CommonDialogNullBg.CloseOnTouchOutside" parent="CommonDialogNullBg">
+
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="MyAppTheme">
+        <item name="android:windowBackground">@drawable/app_splash_white_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TranslucentWindow" parent="Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="MyAppTheme.Full" parent="MyAppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="SplashTheme.Full" parent="MyAppTheme">
+        <item name="android:windowBackground">@drawable/app_splash_white_full_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="Translucent" parent="CommonDialogNullBg">
+
+        <item name="android:backgroundDimAmount">0</item>
+
+<!--        <item name="android:windowActionBar">false</item>-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="android:windowDisablePreview">true</item>-->
+<!--        <item name="android:windowIsFloating">false</item>-->
+<!--        <item name="android:backgroundDimEnabled">false</item>-->
+
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+    </style>
+
+
+    <!--dialog样式-->
+    <style name="ActivityDialogTheme" parent="MyAppTheme">
+
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+include ':pysun_common'
+include ':pysun_net'
+include ':app'
+rootProject.name = "whetstone"
